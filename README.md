@@ -16,7 +16,7 @@ This script automates network or node operations for Blockless Bless Network.
 
 1. Clone the repository to your local machine:
    ```bash
-   git clone https://github.com/recitativonika/blockless-bless-network-bot.git
+   git clone https://github.com/SRCryptoBoyz/Blockless-bot.git
    ```
 2. Navigate to the project directory:
    ```bash
