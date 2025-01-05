@@ -20,7 +20,7 @@ This script automates network or node operations for Blockless Bless Network.
    ```
 2. Navigate to the project directory:
    ```bash
-   cd blockless-bless-network-bot
+   cd Blockless-bot
    ```
 4. Install the necessary dependencies:
    ```bash
