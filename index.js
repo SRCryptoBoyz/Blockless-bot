@@ -816,19 +816,19 @@ async function pingNode(nodeId, agent, ipAddress, authToken, pingErrorCount) {
 async function displayHeader() {
     const chalk = await import('chalk');
     console.log("");
-    console.log(chalk.default.yellow(" ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ "));
+    console.log(chalk.default.green("  ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ "));
     console.log(chalk.default.yellow("  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>   "));
-    console.log(chalk.default.yellow(" ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ "));
-    console.log(chalk.default.yellow("    ██████╗ ██╗ ██████╗                  ███████╗    "));
-    console.log(chalk.default.yellow("   ██╔════╝ ╚═╝ ██╔══██╗ ██████╗ ██╗ ██╗ ╚═══███║    "));
-    console.log(chalk.default.yellow("   ██║          ███████║ ██╔═██║ ██████║ ███████║    "));
-    console.log(chalk.default.yellow("   ██║          ██╔══██║ ██║ ██║ ╚═██╔═╝ ███╔═══╝    "));
-    console.log(chalk.default.yellow("   ╚██████╗     ██████╔╝ ██████║   ██║   ███████╗    "));
-    console.log(chalk.default.yellow("    ╚═════╝     ╚═════╝  ╚═════╝   ╚═╝   ╚══════╝    "));
-    console.log(chalk.default.yellow("                  BLESS AUTO FARMING                 "));
-    console.log(chalk.default.yellow(" ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ "));
+    console.log(chalk.default.green("  ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ "));
+    console.log(chalk.default.magenta("    ██████╗ ██╗ ██████╗                  ███████╗    "));
+    console.log(chalk.default.magenta("   ██╔════╝ ╚═╝ ██╔══██╗ ██████╗ ██╗ ██╗ ╚═══███║    "));
+    console.log(chalk.default.magenta("   ██║          ███████║ ██╔═██║ ██████║ ███████║    "));
+    console.log(chalk.default.magenta("   ██║          ██╔══██║ ██║ ██║ ╚═██╔═╝ ███╔═══╝    "));
+    console.log(chalk.default.magenta("   ╚██████╗     ██████╔╝ ██████║   ██║   ███████╗    "));
+    console.log(chalk.default.magenta("    ╚═════╝     ╚═════╝  ╚═════╝   ╚═╝   ╚══════╝    "));
+    console.log(chalk.default.magenta("                  BLESS AUTO FARMING                 "));
+    console.log(chalk.default.green("  ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ "));
     console.log(chalk.default.yellow("  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<   "));
-    console.log(chalk.default.yellow(" ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ "));
+    console.log(chalk.default.green("  ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ "));
     console.log("");
 }
 
